@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#modalWindow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 537px;
+  height: 402px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 3%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  text-align: center;
+  margin: auto;
+  transition: all 800ms;
+  z-index: 11;
+}
+
+#modalWindow h1 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  color: #333;
+  line-height: 50px;
+}
+
+#modalWindow #description {
+  width: 84%;
+  height: 200px;
+  color: #333;
+  margin: 24px auto;
+}
+
+#modalWindow p {
+  width: 100%;
+  color: #333;
+  text-align: center;
+}
+
+/*Responsive*/
+@media (max-width: 580px) {
+  #modalWindow {
+    width: 90%;
+  }
+
+  #modalWindow h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  #modalWindow {
+    width: 90%;
+  }
+
+  #modalWindow h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 384px) {
+  #modalWindow {
+    height: 490px;
+  }
+}
+
+@media (max-width: 280px) {
+  #modalWindow h1 {
+    font-size: 18px;
+  }
+}

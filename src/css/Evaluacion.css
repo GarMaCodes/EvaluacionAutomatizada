@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  width: 76%;
+  height: 560px;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.title {
+  width: 100%;
+  height: 50px;
+  margin: 0px auto;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: bolder;
+  color: #333;
+  text-align: center;
+  line-height: 50px;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+}
+
+.subjectName {
+  text-align: center;
+}
+
+.answers {
+  width: 100%;
+}
+
+.otherInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  width: 85%;
+  height: 10%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/*Responsive*/
+
+@media (max-width: 1024px) {
+  .title {
+    height: 50px;
+  }
+
+  .otherInfo {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 834px) {
+  .title {
+    height: 50px;
+  }
+
+  .otherInfo {
+    justify-content: space-between;
+  }
+
+  .question {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .answers {
+    font-size: 17px;
+  }
+
+  .otherInfo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 739px) {
+  .answers {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .title h1 {
+    font-size: 20px;
+  }
+
+  .subjectName {
+    margin-top: 10px;
+  }
+
+  .subjectName h2 {
+    font-size: 17px;
+  }
+
+  .questionText p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 540px) {
+  .question {
+    width: 100%;
+  }
+  .questionText {
+    width: 95%;
+  }
+
+  .questionText p {
+    font-size: 15px;
+  }
+
+  .answers {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 442px) {
+  .answers {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 414px) {
+  .questionBox {
+    width: 90%;
+  }
+}
+
+@media (max-width: 334px) {
+  .answers {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .questionBox {
+    width: 95%;
+  }
+}
+
+@media (max-width: 304px) {
+  .title h1 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 280px) {
+  .subjectName h2 {
+    font-size: 12px;
+    margin-top: -20px;
+  }
+  .answers {
+    line-height: 25px;
+    font-size: 10px;
+  }
+}

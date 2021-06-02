@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.question_answers {
+  width: 85%;
+  height: 55%;
+  margin: 30px auto;
+  border: 1px solid #333;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px gray, 2px 2px 6px #ccc, 2px 2px 8px #ddd;
+}
+
+.section {
+  width: 30%;
+  height: 30px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.section h2 {
+  font-family: "Montserrat";
+  color: #333;
+}
+
+.questionBox {
+  width: 80%;
+  min-height: 75%;
+  font-size: 20px;
+  color: #333;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.question {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  max-height: 60px;
+}
+
+.index {
+  width: 35px;
+  height: auto;
+}
+
+.questionText {
+  width: 97%;
+  height: auto;
+}
+
+/*Responsive*/
+
+@media (max-width: 375px) {
+  .question_answers {
+    width: 95%;
+    min-height: 60%;
+  }
+
+  .index {
+    width: 30px;
+  }
+}

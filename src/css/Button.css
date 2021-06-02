@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nextButton {
+  width: 20%;
+  height: 30px;
+  font-family: "Montserrat";
+  font-size: 15px;
+  color: #333;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  transition: all 300ms;
+}
+
+.nextButton:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: transparent;
+}
+
+.nextButton:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #333;
+}
+
+/*Responsive*/
+
+@media (max-width: 1024px) {
+  .nextButton {
+    width: 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .nextButton {
+    width: 30%;
+  }
+}
+
+@media (max-width: 540px) {
+  .nextButton {
+    width: 40%;
+  }
+}
+
+@media (max-width: 405px) {
+  .nextButton {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 384px) {
+  .nextButton {
+    width: 45%;
+  }
+}
+
+@media (max-width: 360px) {
+  .nextButton {
+    width: 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  .nextButton {
+    width: 55%;
+  }
+}
+
+@media (max-width: 280px) {
+  .nextButton {
+    width: 65%;
+  }
+}
